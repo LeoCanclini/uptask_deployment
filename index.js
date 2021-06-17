@@ -103,7 +103,7 @@ const port = process.env.PORT || 7000;
 
 //utilizamos listen para saber que puerto va a utilizar
 app.listen(port, host, () => {
-    console.log('El servidor esta funcionando');
-})
+    console.log('El servidor esta LISTO');
+});
 
 //require('./handlers/email');
