@@ -1,0 +1,1 @@
+exports.vardump = (objeto) => JSON.stringify(objeto, null, 2); //transformar un objeto a string
